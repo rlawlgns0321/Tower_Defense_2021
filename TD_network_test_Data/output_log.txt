@@ -1,0 +1,56 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     2146 MB
+    Driver:   26.20.100.8141
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Unity_document\2020_02_11\TD_network_test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity_document\2020_02_11\TD_network_test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity_document\2020_02_11\TD_network_test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity_document\2020_02_11\TD_network_test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Unity_document\2020_02_11\TD_network_test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Unity_document\2020_02_11\TD_network_test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Unity_document\2020_02_11\TD_network_test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Unity_document\2020_02_11\TD_network_test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.122 seconds
+Platform assembly: D:\Unity_document\2020_02_11\TD_network_test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Unity_document\2020_02_11\TD_network_test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 70.492294 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 4380 -> priority: 1 
+  Thread -> id: 4aac -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.470700 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1917.
+Total: 12.380899 ms (FindLiveObjects: 0.124800 ms CreateObjectMapping: 0.030700 ms MarkObjects: 12.192200 ms  DeleteObjects: 0.032100 ms)
+
+Standard Turret Selected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Turret build! Money left: 300
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Turret build! Money left: 200
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Pressed e
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.983500 ms
+
+Unloading 248 unused Assets to reduce memory usage. Loaded Objects now: 506.
+Total: 1.187900 ms (FindLiveObjects: 0.071100 ms CreateObjectMapping: 0.054900 ms MarkObjects: 0.505100 ms  DeleteObjects: 0.556000 ms)
+
