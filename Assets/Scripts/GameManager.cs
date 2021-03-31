@@ -30,8 +30,8 @@ public class GameManager : MonoBehaviour {
             EndGame();
             Debug.Log("life below 0");
         }
-        if (Input.GetKeyDown(KeyCode.Escape)) //Pause when press esc.
-            Press_Menu();
+ /*       if (Input.GetKeyDown(KeyCode.Escape)) //Pause when press esc.
+            Press_Menu();*/
         if(!is_CompleteUI_Active && PlayerStats.Rounds >= StageLevelModifier.modified_waveNumber && remain_enemies.Length == 0)
         {
             Time.timeScale = 0f;
@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour {
             is_CompleteUI_Active = true;
             return;
         }
-	}
+    }
 
     public void Press_Menu()
     {
