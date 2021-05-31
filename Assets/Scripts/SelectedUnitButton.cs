@@ -30,15 +30,15 @@ public class SelectedUnitButton : MonoBehaviour {
 
             if (TowerControl.selected[0].turret.name == "StandardTurret")
             {
-                Instantiate(Upgraded_Standard, TowerControl.selected[0].GetBuildPosition(), Quaternion.identity);
+                GameObject T = (GameObject)Instantiate(Upgraded_Standard, TowerControl.selected[0].GetBuildPosition(), Quaternion.identity);
                 Destroy(TowerControl.selected[0].turret);
-                TowerControl.selected[0].turret = Upgraded_Standard;
+                TowerControl.selected[0].turret = T;
             }
             else if (TowerControl.selected[0].turret.name == "Missile Launcher")
             {
-                Instantiate(Upgraded_Missile, TowerControl.selected[0].GetBuildPosition(), Quaternion.identity);
+                GameObject T = (GameObject)Instantiate(Upgraded_Missile, TowerControl.selected[0].GetBuildPosition(), Quaternion.identity);
                 Destroy(TowerControl.selected[0].turret);
-                TowerControl.selected[0].turret = Upgraded_Missile;
+                TowerControl.selected[0].turret = T;
             }
 
 
