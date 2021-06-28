@@ -482,6 +482,7 @@ GameObject:
   - component: {fileID: 807682031}
   - component: {fileID: 807682029}
   - component: {fileID: 807682028}
+  - component: {fileID: 807682030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -505,6 +506,22 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807682027}
   m_Enabled: 1
+--- !u!123 &807682030
+LensFlare:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807682027}
+  m_Enabled: 1
+  m_Flare: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Brightness: 1
+  m_FadeSpeed: 3
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 6
+  m_Directional: 0
 --- !u!20 &807682031
 Camera:
   m_ObjectHideFlags: 0
@@ -555,13 +572,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807682027}
-  m_LocalRotation: {x: -0.14161962, y: -0.21206094, z: 0.031074487, w: -0.96644115}
+  m_LocalRotation: {x: 0.14161734, y: 0.21206155, z: -0.03107441, w: 0.96644133}
   m_LocalPosition: {x: -2.878539, y: 0.9798802, z: -3.6021876}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 77, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 16.673, y: 24.752, z: 0}
 --- !u!1 &886468078
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,7 +970,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 807682031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1053,7 +1070,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 807682031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
