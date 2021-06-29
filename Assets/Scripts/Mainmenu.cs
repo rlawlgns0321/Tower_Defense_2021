@@ -6,10 +6,17 @@ public class Mainmenu : MonoBehaviour {
 
     public string levelToLoad = "LevelManage";
     public string level_manage_play = "MainScene";
+    public string to_tutorial = "Tutorial";
 
     public void Play()
     {
         StartCoroutine(loadScene(levelToLoad));
+        Time.timeScale = 1f;
+    }
+
+    public void To_Tutorial()
+    {
+        StartCoroutine(loadScene(to_tutorial));
         Time.timeScale = 1f;
     }
 

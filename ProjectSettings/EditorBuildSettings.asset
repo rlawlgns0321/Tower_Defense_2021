@@ -14,3 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LevelManage.unity
     guid: cd749b9cea899ed46b0233278426e9e5
+  - enabled: 1
+    path: Assets/Tutorial.unity
+    guid: 723ac6673f9f37243ac5e6e8bfa2fa21
+  m_configObjects: {}
